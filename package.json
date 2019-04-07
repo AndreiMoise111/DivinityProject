@@ -1,0 +1,25 @@
+{
+  "name": "DivinityProject",
+  "version": "1.0.0",
+  "dependencies": {},
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node divinity.js",
+    "test": "mocha",
+    "code-style": "xo"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^6.0.2",
+    "xo": "^0.24.0"
+  },
+  "xo": {
+    "envs": [
+      "mocha"
+    ],
+    "space": 2,
+    "prettier": true
+  }
+}
